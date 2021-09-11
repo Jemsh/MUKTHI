@@ -427,6 +427,8 @@ font-size: 15px;
 	top: 180%!important;
 	transform: translateY(-180%);
 }
+
+
 #tabs {
   float: right;
   margin-right: 0px;
@@ -504,6 +506,12 @@ font-size: 15px;
   margin-top: 30px;
   margin-bottom: 0px;
 }
+.tabs ul li span sicons {
+  float:left;
+  color: #000;
+
+
+ }
 
 
 
@@ -630,8 +638,62 @@ font-size: 15px;
   color: #1e1e1e;
 }
 
+  /* ............................................... */
 
 
+  #sicons ul li span {
+    text-align: center; 
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    font-size: 32px;
+    line-height: 84px;
+    border-radius: 50%;
+    display: none;
+    
+  }
+  #sicons ul .ui-sicons-active span {
+    background: #faf5b2;
+    border: #faf5b2;
+    line-height: 90px;
+    border-bottom: none;
+  }
+  #sicons ul .ui-sicons-active a {
+    color: #000;
+  }
+  #sicons ul .ui-sicon-active span {
+    color: #1e1e1e;
+  }
+
+
+/* ................................................. */
+
+#siconsbig ul li span {
+  text-align: center; 
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  width: 90px;
+  height: 90px;
+  font-size: 32px;
+  line-height: 84px;
+  border-radius: 50%;
+  display: table;
+}
+#siconsbig ul .ui-siconsbig-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
+#siconsbig ul .ui-siconsbig-active a {
+  color: #000;
+}
+#siconsbig ul .ui-siconsbig-active span {
+  color: #1e1e1e;
+}
 
 /* Responsive Style */
 @media (max-width: 991px) {
@@ -776,4 +838,32 @@ font-size: 15px;
     margin-bottom: 20px;
   }
 
-}
+  /* ............................................... */
+
+  #sicons ul li span {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 54px;
+    float: left;    
+display: block;
+margin-left: 8%;
+  }
+  #sicons ul .ui-sicons-active span {
+    line-height: 60px;
+    
+  }
+
+  /* .................................................... */
+  #siconsbig ul li span {
+    display: none;  
+    
+  }
+  #siconsbig ul .ui-siconsbig-active span {
+    line-height: 60px;
+    
+  }
+
+
+
+ }
