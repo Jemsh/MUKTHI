@@ -348,7 +348,7 @@ nav a::before {
   overflow: hidden;
 }
 #image-slider ul li:nth-child(1) {
-  background-image: url(../images/full-bg-01.jpg);
+  background-image: url(../images/full-bg-01.1.jpg);
 }
 #image-slider ul li:nth-child(2) {
   background-image: url(../images/full-bg-02.jpg);
@@ -398,6 +398,8 @@ nav a::before {
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
+  
+
 }
 .slide-caption h2 {
   margin-top: 0px;
