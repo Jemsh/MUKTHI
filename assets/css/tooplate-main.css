@@ -350,10 +350,10 @@ nav a::before {
 #image-slider ul li:nth-child(1) {
   background-image: url(../images/full-bg-01.1.jpg);
 }
-/* #image-slider ul li:nth-child(2) {
-  background-image: url(../images/full-bg-02.jpg);
-} */
 #image-slider ul li:nth-child(2) {
+  background-image: url(../images/full-bg-02.jpg);
+}
+#image-slider ul li:nth-child(3) {
   background-image: url(../images/full-bg-03.jpg);
 }
 #image-slider ul li.active-img{
@@ -405,6 +405,21 @@ nav a::before {
 
 
 }
+.second-slide-page h2 {
+  margin-top: 20%;  
+  margin-left: 19%;
+  margin-right: 0%;
+  font-weight: 900;
+  color: #fff;
+  font-family: "Lucida Handwriting",Cursive;
+  font-size: 30px;
+  line-height: 1.7;
+  text-align: left;
+  color: #162c32;
+
+
+}
+
 .slide-caption h2 {
   margin-top: 0px;
   font-size: 60px;
@@ -863,7 +878,20 @@ margin-left: 8%;
     line-height: 60px;
     
   }
-
+  .second-slide-page h2 {
+    margin-top: 104%;  
+    margin-left: 5%;
+    margin-right: 0%;
+    font-weight: 900;
+    color: #fff;
+    font-family: "Lucida Handwriting",Cursive;
+    font-size: 28px;
+    line-height: 1.4;
+    text-align: left;
+    color: #162c32;
+  
+  
+  }
 
 
  }
