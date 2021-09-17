@@ -396,11 +396,11 @@ nav a::before {
   margin-top: 0px;
   margin-left: 15%;
   margin-right: 15%;
-  font-weight: 900;
+  font-weight: 200;
   color: #fff;
-  font-family: "Lucida Handwriting",Cursive;
-  font-size: 28px;
-  line-height: 1.4;
+  font-family: "Monaco",monospace;
+  font-size: 25px;
+  line-height: 1.3;
   
 
 
@@ -409,10 +409,10 @@ nav a::before {
   margin-top: 20%;  
   margin-left: 19%;
   margin-right: 0%;
-  font-weight: 900;
+  font-weight: 200;
   color: #fff;
-  font-family: "Lucida Handwriting",Cursive;
-  font-size: 30px;
+  font-family: "Monaco",monospace;
+  font-size: 25px;
   line-height: 1.7;
   text-align: left;
   color: #162c32;
@@ -589,7 +589,7 @@ font-size: 15px;
 
 /* Slide 4 Style */
 .fourth-content {
-	top: 140%!important;
+	top: 130%!important;
   height: 100%;
 	transform: translateY(-140%);
 }
@@ -597,7 +597,7 @@ font-size: 15px;
   text-align: center;
   margin: 0 auto;
   max-width: 750px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 40px;
   background-color: rgba(0,0,0,0.9);
 }
@@ -707,6 +707,32 @@ font-size: 15px;
   color: #000;
 }
 #siconsbig ul .ui-siconsbig-active span {
+  color: #1e1e1e;
+}
+
+.bigscreenSmIcon{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.siconsbig {
+  text-align: center; 
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  width: 90px;
+  height: 90px;
+  font-size: 32px;
+  line-height: 84px;
+  border-radius: 50%;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.siconsbig:hover {
+  background-color: #faf5b2;
+  border-color: #faf5b2;
   color: #1e1e1e;
 }
 
@@ -863,9 +889,11 @@ font-size: 15px;
     float: left;    
 display: block;
 margin-left: 8%;
+
   }
   #sicons ul .ui-sicons-active span {
     line-height: 60px;
+    
     
   }
 
@@ -879,19 +907,24 @@ margin-left: 8%;
     
   }
   .second-slide-page h2 {
-    margin-top: 100%;  
-    margin-left: 5%;
+    margin-top: 85%;  
+    margin-left: 3%;
     margin-right: 0%;
     font-weight: 900;
     color: #fff;
-    font-family: "Lucida Handwriting",Cursive;
-    font-size: 28px;
+    font-family: "Monaco",monospace;
+    font-size: 20px;
     line-height: 1.4;
     text-align: left;
     color: #162c32;
+    padding-bottom: 40px;
   
   
   }
 
+  
+.siconsbig{
+  display: none;
+}
 
  }
