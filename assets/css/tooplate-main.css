@@ -927,4 +927,18 @@ margin-left: 8%;
   display: none;
 }
 
+.slide-caption h6 {
+  margin-top: 0px;
+  margin-left: 1%;
+  margin-right: 15%;
+  font-weight: 200;
+  color: #fff;
+  font-family: "Monaco",monospace;
+  font-size: 22px;
+  line-height: 1.6;
+  
+
+
+}
+
  }
